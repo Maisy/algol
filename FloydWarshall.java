@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 // acmicpc
 //https://www.acmicpc.net/problem/11404
-public class Main {
+public class FloydWarshall {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		new Solver();
 	}
@@ -17,8 +17,6 @@ class Solver {
 	BufferedWriter bw;
 	int T, N, M, K;
 	int[][] A;
-	int[][] D;
-	int S, E;
 	int MAX = (int) 1e9 + 1;
 
 	Solver() throws IOException {

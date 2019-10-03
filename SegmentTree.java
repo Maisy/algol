@@ -6,14 +6,14 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 // https://www.acmicpc.net/problem/2042
-class Solver {
+class SegmentTree {
 	BufferedWriter bw;
 	long[] T;
 	int N, M, K;
 	int MAX = (int) 1e9;
 	int TN;
 
-	Solver() throws IOException {
+	SegmentTree() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;

@@ -10,14 +10,14 @@ import java.util.StringTokenizer;
 
 // acmicpc
 //https://www.acmicpc.net/problem/10254
-class Solver {
+class LongestPath {
 	BufferedWriter bw;
 	int T;
 	int N, M, K;
 	int MAX = (int) 1e9;
 	ArrayList<Point> A;
 
-	Solver() throws IOException {
+	LongestPath() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;

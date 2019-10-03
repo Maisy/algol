@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-class Solver {
+class UnionFind {
 	BufferedWriter bw;
 	long[] T;
 	int N, M, K;
@@ -14,7 +14,7 @@ class Solver {
 	int[] A;
 	int[] P;
 
-	Solver() throws IOException {
+	UnionFind() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;

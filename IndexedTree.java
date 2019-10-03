@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-class Solver {
+class IndexedTree {
 	BufferedWriter bw;
 	long[] T;
 	int N, M, K;
@@ -13,7 +13,7 @@ class Solver {
 	int TN;
 	int[] A;
 
-	Solver() throws IOException {
+	IndexedTree() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
